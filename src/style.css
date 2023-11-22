@@ -14,3 +14,11 @@ body {
   border: 1px solid black;
   cursor: move;
 }
+
+.draggable:hover {
+  background-color: #eee;
+}
+
+.draggable.dragging {
+  opacity: 0.5;
+}
